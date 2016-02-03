@@ -6,5 +6,5 @@ package kru.poompunk.wannachat.weightcheck;
 public class MyOpenHelper {
 
     public MyOpenHelper() {
-    } //con
+    } //constructor
 }// main class
