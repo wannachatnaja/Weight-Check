@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
  * Created by icakeeeeeee on 3/2/2559.
  */
 public class MyManage {
+
     //ex
     private MyOpenHelper myOpenHelper;
     private SQLiteDatabase writeSqLiteDatabase, readSqLiteDatabase;

@@ -5,9 +5,17 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    //ex
+    private MyManage objMyManage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-}
+
+        //request data
+        objMyManage = new MyManage(this);
+
+    }//main method
+
+}//main
