@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (objCursor.getCount() == 0) {
             Intent objIntent = new Intent(MainActivity.this, RegiActivity.class);
-
+            startActivity(objIntent);
 
         }//if
         objCursor.close();
